@@ -100,4 +100,4 @@
 
 12. Creación de otro commit en la interfaz de VSCode:
 
-    
+    ![](/img/vscode1.png)
