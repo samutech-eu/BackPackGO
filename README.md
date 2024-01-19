@@ -1,5 +1,5 @@
 ## Samuel Daniel Ciocan
-## Lenguaje de Marcas
+## Lenguaje de Marcas y Sistemas de Gestión de Información
 ## IES Aguadulce 2023-2024
 ## Enlace a la web: (poner aquí)
 
@@ -76,3 +76,28 @@
 7. Comprobar que está subido a GitHub:
 
     ![](/img/github1.png)
+
+
+8. Modificar el repositorio para que sea público:
+
+    ![](/img/github2.png)
+
+
+9. Configurar el repositorio para que publique el directorio raíz en GitHub Pages:
+
+    ![](/img/github3.png)
+
+
+10. Mostrar los despliegues deployments:
+
+    ![](/img/github4.png)
+
+
+11. Mostrar la página web:
+
+    ![](/img/github5.png)
+
+
+12. Creación de otro commit en la interfaz de VSCode:
+
+    
