@@ -99,7 +99,8 @@
 
 
 12. Creación de otro commit en la interfaz de VSCode:
-
+    explicacion
     ![](/img/vscode1.png)
-
+    
+    explicacion
     ![](/img/vscode2.png)
