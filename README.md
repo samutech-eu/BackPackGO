@@ -1,9 +1,7 @@
 ## Samuel Daniel Ciocan
 ## Lenguaje de Marcas
 ## IES Aguadulce 2023-2024
-## Enlace a la web (Ver más abajo):
-
-### Uso de Git mediante la terminal git bash. Las instrucciones y sus resultados deben mostrar como bloques de código markdown:
+## Enlace a la web: (poner aquí)
 
 1. Configuración de usuario
 
@@ -17,14 +15,16 @@
     $ git config --global user.email "samuciocan@gmail.com"
     ```
 
-2. Creación del repositorio en nuestro ordenador (init)
+2. Creación del repositorio en nuestro ordenador:
 
     ```
     git init BackPackGO
     cd BackPackGO
     ```
 
-3.  Creación de un commit inicial (add, status, commit, log)
+
+3.  Creación de un commit inicial:
+
     ```
     touch README.md
     code . &
@@ -42,5 +42,16 @@
             new file:   README.md
     ```
 
-4.  Creación del repositorio en Github
-    ![](/img/imagen1.png)
+
+4.  Creación del repositorio en GitHub:
+
+    ![](/img/repositorio1.png)
+
+
+5. Añadir el remoto al repositorio local:
+
+    ```
+    git remote add origin https://github.com/samutech-eu/BackPackGO.git
+    ```
+
+    
