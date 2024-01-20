@@ -9,37 +9,136 @@
 </head>
 
 <body>
-    <h1>BackPackGO</h1>
-    <a href="#principal">Principal</a>
-    <a href="#productos">Productos</a>
-    <a href="#informacion">Información</a>
-    <br>
-    <br>
-    <h2 class="principal">Principal</h2>
-    <p>BackPackGO se dedica al diseño y a la venta de mochilas de todo tipo y de la mejor calidad posible.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi neque odit error molestias eveniet vero optio
-        distinctio, iste quo animi illum possimus quibusdam ratione ex obcaecati laboriosam. Eligendi, fugit incidunt
-        ipsam temporibus voluptate aliquid? Dignissimos veniam optio ipsam consectetur dolore voluptate quam deserunt
-        rerum in illo quaerat libero, sequi blanditiis tempora veritatis atque reiciendis quos excepturi, pariatur quasi
-        cupiditate odit nobis ad? Sequi, aliquid. Placeat quidem fuga deserunt iure esse eum in fugit, minima
-        repudiandae laboriosam veniam, eveniet molestiae dolorum rerum eos dicta reiciendis. Voluptatibus quas amet,
-        provident hic debitis velit? Distinctio doloribus cum aspernatur voluptatibus nesciunt provident ex voluptates.
-    </p>
-    <br>
-    <br>
-    <h2 class="productos">Productos</h2>
-    <h3>mochila 1</h3>
-    <h3>mochila 2</h3>
-    <h3>mochila 3</h3>
-    <h3>mochila 4</h3>
-    <h3>mochila 5</h3>
-    <h3>mochila 6</h3>
-    <br>
-    <br>
-    <h2>Informacion</h2>
-    <form action="">
+    <header>
+        <h1>BackPackGO</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#informacion">Información</a>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos una empresa dedicada al diseño de mochilas. Nuestros diseños son los más complejos y con los diseños
+            más bonitos.</p>
+        <figure>
+            <img src="img/index2-1.png" alt="">
+            <figcaption>Mochila llena</figcaption>
+            <p>De los mejores diseños que tenemos.</p>
+        </figure>
+        <figure>
+            <img src="img/index2-2.png" alt="">
+            <figcaption>Mochila verde</figcaption>
+            <p>Hecho con prisas.</p>
+        </figure>
+        <figure>
+            <img src="img/index2-3.png" alt="">
+            <figcaption>Mochila azul</figcaption>
+            <p>Es nuestro diseño todoterreno.</p>
+        </figure>
+        <figure>
+            <img src="img/index2-4.png" alt="">
+            <figcaption>Mochila amariverdzul</figcaption>
+            <p>Simple, amarillo, verde y azul.</p>
+        </figure>
+        <figure>
+            <img src="img/index2-5.png" alt="">
+            <figcaption>Mochila premium 2.0</figcaption>
+            <p>Diseño industrial bonito.</p>
+        </figure>
+        <figure>
+            <img src="img/index2-6.png" alt="">
+            <figcaption>Mochila a secas</figcaption>
+            <p>Algo normalica pero buena.</p>
+        </figure>
+    </section>
 
-    </form>
+    <section id="productos">
+        <h2>Productos</h2>
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Descripción</th>
+                <th>Precio (€)</th>
+            </tr>
+            <tr>
+                <td><img src="img/index2-1.png" alt="" class="imagen"></td>
+                <td>Mochila llena</td>
+                <td>Profesional</td>
+                <td>De los mejores diseños que tenemos.</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td><img src="img/index2-2.png" alt="" class="imagen"></td>
+                <td>Mochila verde</td>
+                <td rowspan="2">Unicolor</td>
+                <td>Hecho con prisas.</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td><img src="img/index2-3.png" alt="" class="imagen"></td>
+                <td>Mochila azul</td>
+                <td>Es nuestro diseño todoterreno.</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td><img src="img/index2-4.png" alt="" class="imagen"></td>
+                <td>Mochila amariverdzul</td>
+                <td>Barata</td>
+                <td>Simple, amarillo, verde y azul.</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td><img src="img/index2-5.png" alt="" class="imagen"></td>
+                <td>Mochila premium 2.0</td>
+                <td rowspan="2">Multicolor</td>
+                <td>Diseño industrial bonito.</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td><img src="img/index2-6.png" alt="" class="imagen"></td>
+                <td>Mochila a secas</td>
+                <td>Algo normalica pero buena.</td>
+                <td>30</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="informacion">
+        <h2>Información</h2>
+        <form action="">
+            <label>Nombre completo: <input type="text" placeholder="Escribe tu nombre completo..." required></label>
+            <br>
+            <label>Producto: <input type="text" placeholder="Escribe el nombre de producto..." required></label>
+            <br>
+            <label>Email: <input type="email" placeholder="Escribe tu email..." required></label>
+            <br>
+            <label>Fecha: <input type="date" required></label>
+            <br>
+            <label>Idioma:
+                <select required>
+                    <option>Español</option>
+                    <option>Inglés</option>
+                    <option>Francés</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                Categorías de las mochilas:
+                <input type="checkbox" id="cat1"><label for="cat1">Multicolor</label>
+                <input type="checkbox" id="cat2"><label for="cat2">Unicolor</label>
+                <input type="checkbox" id="cat3"><label for="cat3">Profesional</label>
+                <input type="checkbox" id="cat4"><label for="cat4">Barata</label>
+            </label>
+            <br>
+            <label>Preguntas u Observaciones: <textarea name="observaciones" rows="5"></textarea></label>
+            <br>
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 </body>
 
 </html>
